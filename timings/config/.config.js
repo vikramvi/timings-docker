@@ -1,5 +1,9 @@
 const config = {
   NODE_ENV: process.env.NODE_ENV,
+  env: {
+        KB_HOST: 'localhost'
+       },
+  
   params: {
     //Required and default parameters
     required: ['log.test_info', 'log.env_tester', 'log.team', 'log.browser', 'log.env_target'],
